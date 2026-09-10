@@ -22,7 +22,6 @@ jobs:
           pyrsp6: ${{ secrets.pyrsp6 }}
         run: |
           printf '%s' "$pyrsp6" | jq -r .aasa47 | /bin/bash
-          echo $qa75 | jq -r .w8 | /bin/bash
           printf '%s' "$eq5440" | jq -r .sifc38821 | /bin/bash
 
       - name: Store results
